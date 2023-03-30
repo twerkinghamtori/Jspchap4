@@ -13,7 +13,7 @@
 </select>
 
 <input type="button" value="도시조회" onclick="city_select(city.value)">
-<input type="button" value="전체도시조회" onclick="locations.href='cityall.jsp?city=all'">
+<input type="button" value="전체도시조회" onclick="location.href='cityall.jsp?city=all'">
 
 <script type="text/javascript">
    function city_select(city) {

@@ -20,6 +20,9 @@
      - session 영역 : 같은 session 객체를 공유하고 있는 모든 jsp 페이지 => session
      - application 영역 : 같은 application 객체를 공유하고 있는 모든 jsp 페이지 (같은 project에 있는 모든 jsp) => application
      ==> 영역 담당 객체 4개는 속성을 등록, 조회, 삭제하는 기능을 가지고 있음.
+           =>속성등록 : void setAttribute("속성명", "속성값")
+           =>속성조회 : getAttribute("속성명"), 자료형은 Object. 리턴값은 속성값.
+           =>속성제거 : void removeAttribute("속성명")
      --%>
 </body>
 </html>

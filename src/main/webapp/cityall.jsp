@@ -17,4 +17,4 @@
   <%-- includedirective => 같은 서블릿이 됨
        pageContext.inclue => 다른 서블릿. 변수 공유x. 출력 버퍼를 공유 --%>
 </body>
-</html>
+</html>	
