@@ -4,7 +4,7 @@
 <!-- post 방식 전송 : <form method="post"> 형식으로 전송되는 경우 
                     파라미터 정보가 http 프로토콜의 body부분에 전송. => 우리 눈에는 파라미터정보가 보이지 않음(보안에 유리)
      get 방식 전송  : 기본방식. method="get" 생략가능.
-                    파라미터 정보가 ulr 부분에 추가되어서 전송됨. => 요청 url에 파라미터 정보가 보임.
+                    파라미터 정보가 url 부분에 추가되어서 전송됨. => 요청 url에 파라미터 정보가 보임.
      request.setCharacterEncoding(인코딩방식)
      => post 방식 전송시 인코딩 방식.
      String request.getParameter(파라미터 이름) : 파라미터의 값을 리턴. 값을 한개만 리턴할 수 있음. (ex.hobby의 값 중 하나만 리턴함)
